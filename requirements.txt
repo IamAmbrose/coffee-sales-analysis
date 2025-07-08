@@ -1,0 +1,7 @@
+pandas
+plotly
+dash
+fpdf2
+python-docx
+python-pptx
+prophet
