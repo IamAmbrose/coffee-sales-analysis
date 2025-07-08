@@ -2,7 +2,13 @@
 
 **Author:** Ambrose Henry
 
----
+
+## 🚀 Live Dashboard
+
+👉 [View the live Coffee Sales Dashboard here](http://127.0.0.1:8050/)
+
+> *Note:* Please allow a few seconds for the server to spin up if it’s on a free plan.
+
 
 ## 📌 Overview
 
@@ -54,3 +60,9 @@ pip install -r requirements.txt
 
  Run the Dashboard
 python dashboard/coffee_dash_app.py
+
+
+## 📜 License
+
+This project is licensed under the MIT License — see [LICENSE](LICENSE) for details.
+
