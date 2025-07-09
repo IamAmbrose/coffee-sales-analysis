@@ -1,1 +1,1 @@
-web: python dashboard/coffee_dash_app.py
+web: python coffee_dash_app.py
