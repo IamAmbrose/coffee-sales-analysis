@@ -41,7 +41,7 @@ Coffee shops generate large volumes of transactional data daily. This project de
 
 Below is a static preview of the deployed dashboard:
 
-![Coffee Sales Dashboard Screenshot](images/dashboard_screenshot.png)
+![Coffee Sales Dashboard Screenshot](newplot.png)
 
 > 📌 This is a static preview — [click here](https://coffee-sales-analysis-ve6uuxg28j4oatkq37cie3.streamlit.app/) to try it live!
 
