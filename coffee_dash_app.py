@@ -21,9 +21,7 @@ df['card'] = df['card'].fillna('CASH')
 app = dash.Dash(__name__)
 app.title = "Coffee Sales Dashboard"
 
-# ============================
 # App Layout
-# ============================
 app.layout = html.Div([
     html.H1("☕ Coffee Sales Dashboard", style={'textAlign': 'center'}),
 
@@ -52,9 +50,7 @@ app.layout = html.Div([
     )
 ])
 
-# ============================
 # Callbacks
-# ============================
 
 @app.callback(
     Output('sales-trend', 'figure'),
@@ -111,8 +107,7 @@ def update_payment_method(selected_coffee):
     )
     return fig
 
-# ============================
 # Run App
-# ============================
-if __name__ == '__main__':
-    app.run(debug=True)
+if __name__ == "__main__":
+    app.run_server(host="0.0.0.0", port=8080, debug=True)
+
