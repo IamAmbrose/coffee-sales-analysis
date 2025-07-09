@@ -59,56 +59,27 @@ coffee-sales-analysis/
 │   └── index.csv              # Coffee sales dataset
 │
 ├── reports/
-│   └── Generated PDF/DOCX/PPTX reports
-│
+│   └── Generated PDF/DOCX/PPTX report
+```
+## ⚙️ Tech Stack
 
-⚙️ Tech Stack
-Python 3
+- **Python 3**
+- **Pandas** – data manipulation
+- **Plotly**, **Plotly Express** – visualizations
+- **Streamlit** – interactive dashboard
+- **Prophet** – time series forecasting
+- **FPDF2**, **python-docx**, **python-pptx** – automated reporting
+- **Render.com** or **Streamlit Community Cloud** – deployment
+---
 
-Pandas for data manipulation
+## ✨ Author
 
-Plotly, Plotly Express for visualization
+**Ambrose Henry**  
+📫 [GitHub](https://github.com/IamAmbrose)
 
-Streamlit for interactive dashboard
+---
 
-Prophet for time series forecasting
+## 📜 License
 
-FPDF2, python-docx, python-pptx for automated reporting
-
-Render.com or Streamlit Community Cloud for deployment
-
-🏃 Getting Started
-🔹 Run locally
-1️⃣ Clone the repository
-
-bash
-Copy
-Edit
-git clone https://github.com/IamAmbrose/coffee-sales-analysis.git
-cd coffee-sales-analysis
-2️⃣ Install dependencies
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
-
-3️⃣ Run the Streamlit app
-
-bash
-Copy
-Edit
-streamlit run dashboard/coffee_dash_app.py
-Then visit http://localhost:8501 in your browser.
-
-🚢 Deployment
-The dashboard is deployed using Streamlit Community Cloud for simplicity and free public access.
-Alternatively, it can be deployed on Render, Heroku, or any cloud platform with a Procfile.
-
-📜 License
-This project is licensed under the MIT License.
-See the LICENSE file for full details.
-
-✨ Author
-Ambrose Henry
-📫 GitHub
+This project is licensed under the **MIT License**.  
+See the [LICENSE](LICENSE) file for details.
