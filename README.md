@@ -46,7 +46,40 @@ Below is a static preview of the deployed dashboard:
 > 📌 This is a static preview — [click here](https://coffee-sales-analysis-ve6uuxg28j4oatkq37cie3.streamlit.app/) to try it live!
 
 ---
+---
 
+## 📌 Project Findings & Insights
+
+**1️⃣ Data Cleaning & Preparation**  
+- Parsed all `datetime` values.  
+- Verified `money` column as sales amount.  
+- Added missing `hour` and `weekday` columns as needed.
+
+**2️⃣ Exploratory Data Analysis (EDA)**  
+- Visualized sales trends by weekday and hour using a clear Seaborn heatmap.  
+- Found peak sales hours in mornings and early afternoons.  
+- Noted that weekdays show stronger sales volume than weekends.
+
+**3️⃣ Forecasting**  
+- Built a Prophet model on daily total sales (`money`).  
+- Forecasted the next 30 days — stable upward trend with clear seasonal patterns.  
+- Forecast helps plan inventory, promotions, and staffing.
+
+**4️⃣ Deliverables**  
+- Clean dataset, EDA visuals, heatmaps, Prophet forecast plots.  
+- Automated PDF, DOCX, and PPTX reports.  
+- Deployed live dashboard: [**Click here**](https://coffee-sales-analysis-ve6uuxg28j4oatkq37cie3.streamlit.app/)
+
+**5️⃣ Suggested Actions**  
+- Focus promotions on peak hours.  
+- Use forecast to manage stock and schedules.  
+- Analyze card vs cash payment trends to improve services.  
+- Expand dashboard with product-level drilldowns.
+
+**Key Insight:**  
+Your coffee shop’s sales show clear daily and hourly trends — plus the forecast empowers data-driven planning for sustained growth.
+
+---
 ## 📂 Project Structure
 
 ```plaintext
