@@ -5,3 +5,4 @@ fpdf2
 python-docx
 python-pptx
 prophet
+streamlit
