@@ -1,68 +1,114 @@
-# ☕ Coffee Shop Sales Dashboard Project
+# ☕ Coffee Sales Analysis Dashboard
 
-**Author:** Ambrose Henry
+This project is a complete end-to-end data science solution for analyzing coffee shop sales data.  
+It covers **data cleaning**, **exploratory data analysis (EDA)**, **forecasting**, **automated report generation**, and an interactive **Streamlit dashboard** — fully deployed for live access.
 
+---
 
-## 🚀 Live Dashboard
+## 📊 Project Overview
 
-👉 [View the live Coffee Sales Dashboard here](http://127.0.0.1:8050/)
+Coffee shops generate large volumes of transactional data daily. This project demonstrates how to turn raw sales data into actionable insights for better decision-making.
 
-> *Note:* Please allow a few seconds for the server to spin up if it’s on a free plan.
-
-
-## 📌 Overview
-
-This project analyzes a coffee shop’s sales data to uncover:
-- Daily and seasonal trends
-- Best-selling coffee products
-- Customer payment preferences
-- Sales forecasts
-
-The insights are delivered through:
-- 📊 An interactive web dashboard (Dash)
-- 📄 Automated PDF, Word, and PowerPoint reports
+**Key objectives:**
+- Clean and process raw coffee sales data.
+- Explore data through detailed EDA.
+- Visualize sales trends and patterns.
+- Forecast future sales using Prophet.
+- Generate automated PDF, DOCX, and PPTX reports.
+- Deploy a live interactive dashboard.
 
 ---
 
 ## ✅ Features
 
-- Cleaned & analyzed sales data (`index.csv`)
-- Visualized trends, top products, and payment breakdowns
-- Time series forecasting with Prophet
-- Interactive dashboard built with Plotly Dash
-- Auto-generated professional reports (PDF, Word, PPTX)
+- 📈 Visualize sales by product, time period, and payment method.
+- 🧾 Understand customer trends and seasonal patterns.
+- 🔮 Forecast future sales with time series models.
+- 📑 Export custom reports (PDF, Word, PPT).
+- 🌐 Live interactive dashboard built with Streamlit.
+
+---
+
+## 🚀 Live Dashboard
+
+👉 [**View the Coffee Sales Dashboard here**](https://coffee-sales-analysis-ve6uuxg28j4oatkq37cie3.streamlit.app/)
+
+> ℹ️ Note: The link may take a few seconds to load if the server is sleeping.
+
+---
+
+## 🖼️ Dashboard Preview
+
+Below is a static preview of the deployed dashboard:
+
+![Coffee Sales Dashboard Screenshot](images/dashboard_screenshot.png)
+
+> 📌 This is a static preview — [click here](https://coffee-sales-analysis-ve6uuxg28j4oatkq37cie3.streamlit.app/) to try it live!
 
 ---
 
 ## 📂 Project Structure
 
 ```plaintext
-Coffee-Sales-Dashboard/
-│
-├── data/
-│   └── index.csv            # Coffee shop sales dataset
+coffee-sales-analysis/
 │
 ├── dashboard/
-│   └── coffee_dash_app.py   # Interactive Dash dashboard
+│   └── coffee_dash_app.py     # Streamlit app source
+│
+├── data/
+│   └── index.csv              # Coffee sales dataset
 │
 ├── reports/
-│   ├── create_pdf.py        # Generate PDF report
-│   ├── create_word.py       # Generate Word report
-│   ├── create_ppt.py        # Generate PowerPoint report
+│   └── Generated PDF/DOCX/PPTX reports
 │
-├── run_all.py               # Run all report generators at once
-├── requirements.txt         # Project dependencies
-├── .gitignore               # Ignore temp files & outputs
-├── README.md                # Project documentation (this file)
 
-run the dependencies
+⚙️ Tech Stack
+Python 3
+
+Pandas for data manipulation
+
+Plotly, Plotly Express for visualization
+
+Streamlit for interactive dashboard
+
+Prophet for time series forecasting
+
+FPDF2, python-docx, python-pptx for automated reporting
+
+Render.com or Streamlit Community Cloud for deployment
+
+🏃 Getting Started
+🔹 Run locally
+1️⃣ Clone the repository
+
+bash
+Copy
+Edit
+git clone https://github.com/IamAmbrose/coffee-sales-analysis.git
+cd coffee-sales-analysis
+2️⃣ Install dependencies
+
+bash
+Copy
+Edit
 pip install -r requirements.txt
 
- Run the Dashboard
-python dashboard/coffee_dash_app.py
+3️⃣ Run the Streamlit app
 
+bash
+Copy
+Edit
+streamlit run dashboard/coffee_dash_app.py
+Then visit http://localhost:8501 in your browser.
 
-## 📜 License
+🚢 Deployment
+The dashboard is deployed using Streamlit Community Cloud for simplicity and free public access.
+Alternatively, it can be deployed on Render, Heroku, or any cloud platform with a Procfile.
 
-This project is licensed under the MIT License — see [LICENSE](LICENSE) for details.
+📜 License
+This project is licensed under the MIT License.
+See the LICENSE file for full details.
 
+✨ Author
+Ambrose Henry
+📫 GitHub
